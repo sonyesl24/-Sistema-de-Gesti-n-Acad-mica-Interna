@@ -1,39 +1,58 @@
+# Definición de la clase Asignatura
 class Asignatura:
-    def __init__(self, nombre: str, codigo:str):
-        self._nombre = None
-        self._codigo = None
-        self.nombre= nombre
-        self.codigo= codigo
+    # Constructor para inicializar una instancia de Asignatura con nombre y código
+    def __init__(self, nombre: str, codigo: str):
+        # Inicializamos los atributos protegidos en None (buenas prácticas para encapsulamiento)
+        self._nombre = None        # Atributo protegido para el nombre de la asignatura
+        self._codigo = None        # Atributo protegido para el código de la asignatura
 
+        # Asignamos valores usando los setters, que incluyen validaciones
+        self.nombre = nombre       # Se usa el setter de nombre, verifica que no esté vacío
+        self.codigo = codigo       # Se usa el setter de código, también con validación
+
+    # Getter para el atributo nombre
     @property
     def nombre(self):
-        return self._nombre
+        return self._nombre  # Devuelve el valor del nombre almacenado internamente
 
+    # Setter para el atributo nombre
     @nombre.setter
-    def nombre (self, valor):
+    def nombre(self, valor):
+        # Validación: el nombre debe ser una cadena no vacía
         if isinstance(valor, str) and valor.strip():
-            self._nombre = valor.strip()
+            self._nombre = valor.strip()  # Se guarda el nombre sin espacios innecesarios
         else:
-            raise ValueError("El nombre de la asignatura no peude estar vacia")
+            raise ValueError("El nombre de la asignatura no puede estar vacío.")  # Error si es inválido
 
+    # Getter para el atributo código
     @property
     def codigo(self):
-        return self._codigo
+        return self._codigo  # Devuelve el código de la asignatura
 
+    # Setter para el atributo código
     @codigo.setter
-    def codigo (self, valor):
+    def codigo(self, valor):
+        # Validación: el código debe ser una cadena no vacía
         if isinstance(valor, str) and valor.strip():
-            self._codigo=valor.strip()
+            self._codigo = valor.strip()  # Se guarda el código limpio de espacios
         else:
-            raise ValueError("El codigo de la asignatura no puede estar vacio")
+            raise ValueError("El código de la asignatura no puede estar vacío.")  # Lanza error si no cumple
 
+    # Metodo especial __str__: define cómo se imprime un objeto Asignatura
     def __str__(self):
-        return f"Codigo: {self._codigo}  //  Nombre: {self._nombre}"
+        return f"Código: {self._codigo} | Nombre: {self._nombre}"
+        # Se muestra el código y el nombre de la asignatura en formato legible
 
+# Bloque para pruebas unitarias simples: se ejecuta solo si el archivo se corre directamente
 if __name__ == "__main__":
     try:
-        asignatura1 = Asignatura("Mate", "mat101")
+        # Se crea una instancia válida de Asignatura
+        asignatura1 = Asignatura("Matemáticas", "MAT101")
+
+        # Se imprime la representación legible del objeto usando __str__
         print(asignatura1)
 
     except ValueError as e:
-        print("Error", e)
+        # Si ocurre un error de validación, se muestra el mensaje
+        print("Error:", e)
+
