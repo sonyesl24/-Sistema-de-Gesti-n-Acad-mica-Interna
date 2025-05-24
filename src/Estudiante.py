@@ -1,4 +1,4 @@
-from Usuario import Usuario # Importamos la clase base Usuario
+from src.Usuario import Usuario # Importamos la clase base Usuario
 
 class Estudiante(Usuario):
     # Constructor que inicializa nombre, cédula y matrícula
