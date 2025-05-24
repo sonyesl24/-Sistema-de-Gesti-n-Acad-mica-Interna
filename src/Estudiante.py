@@ -1,3 +1,10 @@
+"""
+Miembros del grupo:
+- BRIONES PISCO FERNANDO STEVEN
+- PADILLA CRESPIN THAIS MARIANA
+- SALVATIERRA LAINEZ SONY ESAU
+- TORRES GOMEZ AARON MAURICIO
+"""
 from src.Usuario import Usuario  # Importamos la clase Usuario desde el módulo correspondiente
 
 # Definimos la clase Estudiante como subclase de Usuario
@@ -39,7 +46,7 @@ if __name__ == "__main__":
     try:
         # Creamos una instancia válida de Estudiante
         estudiante1 = Estudiante("Carlos Vela", "1122334455", "MAT-2025-001")
-        print(estudiante1)  # Se imprime el resultado del método __str__
+        print(estudiante1)  # Se imprime el resultado del metodo __str__
 
     except ValueError as e:
         # Si se produce una excepción de validación, se muestra el mensaje de error

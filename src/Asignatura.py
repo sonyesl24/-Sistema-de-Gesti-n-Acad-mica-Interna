@@ -1,3 +1,10 @@
+"""
+Miembros del grupo:
+- BRIONES PISCO FERNANDO STEVEN
+- PADILLA CRESPIN THAIS MARIANA
+- SALVATIERRA LAINEZ SONY ESAU
+- TORRES GOMEZ AARON MAURICIO
+"""
 # Definición de la clase Asignatura
 class Asignatura:
     # Constructor para inicializar una instancia de Asignatura con nombre y código
