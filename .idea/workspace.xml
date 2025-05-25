@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e834434-b35f-481f-b8df-f730e7219186" name="Changes" comment="Se agrego docente ya comentado">
+      <change afterPath="$PROJECT_DIR$/.idea/Sistema de Gestión Académica Interna 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Asignatura.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Asignatura.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Docente.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Docente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estudiante.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estudiante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sonyesl24"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sonyesl24/-Sistema-de-Gesti-n-Acad-mica-Interna.git",
+    "accountId": "d6718d66-f0ad-4e9b-abd6-64f68bef50f8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2xYWLSZ6RAbF4d6Xmu53bw34Udp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Asignatura.executor": "Run",
+    "Python.Docente.executor": "Run",
+    "Python.Estudiante.executor": "Run",
+    "Python.Evaluacion.executor": "Run",
+    "Python.Examen.executor": "Run",
+    "Python.GestionContinua.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Nota.executor": "Run",
+    "Python.Usuario.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sistema de Gestión Académica Interna 2\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e834434-b35f-481f-b8df-f730e7219186" name="Changes" comment="" />
+      <created>1748115430353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748115430353</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Prueba">
+      <option name="closed" value="true" />
+      <created>1748115503750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748115503750</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se añadio Asignatura">
+      <option name="closed" value="true" />
+      <created>1748116479000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748116479000</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se agregaron comentarios en los 3 primeros archivos(As, Us, Es)">
+      <option name="closed" value="true" />
+      <created>1748120276243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748120276243</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se agrego docente ya comentado">
+      <option name="closed" value="true" />
+      <created>1748123144888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748123144888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prueba" />
+    <MESSAGE value="Se añadio Asignatura" />
+    <MESSAGE value="Se agregaron comentarios en los 3 primeros archivos (As, Us, Es)" />
+    <MESSAGE value="Se agregaron comentarios en los 3 primeros archivos(As, Us, Es)" />
+    <MESSAGE value="Se agrego docente ya comentado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrego docente ya comentado" />
+  </component>
+</project>

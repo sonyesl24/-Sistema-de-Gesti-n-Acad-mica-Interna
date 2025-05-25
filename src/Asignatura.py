@@ -9,7 +9,7 @@ Miembros del grupo:
 class Asignatura:
     # Constructor para inicializar una instancia de Asignatura con nombre y código
     def __init__(self, nombre: str, codigo: str):
-        # Inicializamos los atributos protegidos en None (buenas prácticas para encapsulamiento)
+        # Inicializamos los atributos protegidos en None
         self._nombre = None        # Atributo protegido para el nombre de la asignatura
         self._codigo = None        # Atributo protegido para el código de la asignatura
 

@@ -10,7 +10,7 @@ from src.Usuario import Usuario  # Importamos la clase Usuario desde el módulo 
 # Definimos la clase Estudiante como subclase de Usuario
 class Estudiante(Usuario):
 
-    # Constructor: recibe nombre, cédula y matrícula
+    # Recibe nombre, cédula y matrícula
     def __init__(self, nombre: str, cedula: str, matricula: str):
         # Se definen los atributos protegidos heredados y el nuevo atributo matricula
         self._nombre = None       # Atributo protegido para el nombre (heredado de Usuario)
@@ -34,7 +34,7 @@ class Estudiante(Usuario):
         if isinstance(valor, str) and valor.strip():
             self._matricula = valor.strip()  # Se guarda el valor sin espacios al inicio/fin
         else:
-            raise ValueError("La matrícula no puede estar vacía.")  # Lanza error si no cumple
+            raise ValueError("La matrícula del estudiante no puede estar vacía.")  # Lanza error si no cumple
 
     # Metodo especial para mostrar una representación legible del objeto Estudiante
     def __str__(self):

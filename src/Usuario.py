@@ -8,7 +8,6 @@ Miembros del grupo:
 - TORRES GOMEZ AARON MAURICIO
 """
 class Usuario:
-    # Constructor de la clase Usuario. Se ejecuta al crear una nueva instancia.
     # Recibe los parámetros nombre y cédula.
     def __init__(self, nombre: str, cedula: str):
         self._nombre = None       # Se declara un atributo protegido _nombre (convención: "_" indica que no debe accederse directamente)
@@ -29,7 +28,7 @@ class Usuario:
             self._nombre = valor.strip()  # Asigna el valor al atributo _nombre quitando espacios iniciales/finales
         else:
             # Si la validación falla, se lanza una excepción
-            raise ValueError("El nombre no puede estar vacío.")
+            raise ValueError("El nombre no puede estar vacío, verifica donde esta en blanco el campo")
 
     # Getter del atributo cedula. Permite acceder a la cédula de forma segura.
     @property
@@ -44,14 +43,14 @@ class Usuario:
             self._cedula = valor  # Asigna el valor a _cedula si es válido
         else:
             # Si no cumple con los requisitos, se lanza un error
-            raise ValueError("La cédula debe tener exactamente 10 dígitos numéricos.")
+            raise ValueError("La cédula debe tener exactamente 10 dígitos numéricos, verifica en que campo no tiene 10 digitos")
 
     # Metodo especial que define cómo se imprime un objeto de tipo Usuario
     def __str__(self):
         return f"Nombre: {self.nombre} | Cédula: {self.cedula}"  # Devuelve una representación legible del usuario
 
 
-# Bloque de prueba: este código solo se ejecuta si este archivo se ejecuta directamente (no si se importa en otro script)
+# Bloque de prueba
 if __name__ == "__main__":
     try:
         # Se intenta crear un objeto Usuario con valores válidos

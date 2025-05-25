@@ -17,7 +17,7 @@ class Docente(Usuario):
         # Asignamos especialidad usando el setter, que incluye validación
         self.especialidad = especialidad
 
-    # Getter para especialidad que devuelve el valor almacenado en _especialidad
+    # Getter para especialidad que devuelve el valor almacenado en especialidad
     @property
     def especialidad(self):
         return self._especialidad
@@ -31,7 +31,7 @@ class Docente(Usuario):
             self._especialidad = valor.strip()
         else:
             # Si no pasa la validación, lanzamos un error para que se corrija
-            raise ValueError("La especialidad no puede estar vacía.")
+            raise ValueError("La especialidad del docente no puede estar vacía.")
 
     # Metodo especial para imprimir información legible del objeto
     def __str__(self):
