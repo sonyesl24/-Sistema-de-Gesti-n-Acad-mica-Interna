@@ -63,5 +63,5 @@ if __name__ == "__main__":
 
     # Captura y muestra errores inesperados durante la ejecución
     except Exception as e:
-        print(f"⚠ Error inesperado: {e}")
+        print(f" Error inesperado: {e}")
 

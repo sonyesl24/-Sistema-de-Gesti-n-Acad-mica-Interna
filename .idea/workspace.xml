@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e834434-b35f-481f-b8df-f730e7219186" name="Changes" comment="Se agrego docente ya comentado">
-      <change afterPath="$PROJECT_DIR$/.idea/Sistema de Gestión Académica Interna 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Asignatura.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Asignatura.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Docente.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Docente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Estudiante.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estudiante.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.py" afterDir="false" />
+    <list default="true" id="6e834434-b35f-481f-b8df-f730e7219186" name="Changes" comment="Se modifico codigo en main.py para mejor funcionamiento">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +32,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sonyesl24"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sonyesl24&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sonyesl24/-Sistema-de-Gesti-n-Acad-mica-Interna.git",
-    "accountId": "d6718d66-f0ad-4e9b-abd6-64f68bef50f8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sonyesl24/-Sistema-de-Gesti-n-Acad-mica-Interna.git&quot;,
+    &quot;accountId&quot;: &quot;d6718d66-f0ad-4e9b-abd6-64f68bef50f8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xYWLSZ6RAbF4d6Xmu53bw34Udp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,6 +65,7 @@
     "Python.Nota.executor": "Run",
     "Python.Usuario.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "terminal"
   }
@@ -125,7 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748123144888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se agrego evaluacion, examen, gestion y nota con sus respectivos comentarios">
+      <option name="closed" value="true" />
+      <created>1748143051666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748143051666</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se modifico codigo en main.py para mejor funcionamiento">
+      <option name="closed" value="true" />
+      <created>1748143169481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748143169481</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +159,8 @@
     <MESSAGE value="Se agregaron comentarios en los 3 primeros archivos (As, Us, Es)" />
     <MESSAGE value="Se agregaron comentarios en los 3 primeros archivos(As, Us, Es)" />
     <MESSAGE value="Se agrego docente ya comentado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego docente ya comentado" />
+    <MESSAGE value="Se agrego evaluacion, examen, gestion y nota con sus respectivos comentarios" />
+    <MESSAGE value="Se modifico codigo en main.py para mejor funcionamiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifico codigo en main.py para mejor funcionamiento" />
   </component>
 </project>
