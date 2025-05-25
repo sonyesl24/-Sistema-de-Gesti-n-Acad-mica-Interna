@@ -52,7 +52,7 @@ Clase que recibe objetos de tipo GestionContinua y Examen para calcular la nota 
 3. Abre una terminal o consola y navega hasta la carpeta raíz del proyecto.
 4. Ejecuta el archivo principal con el comando:
 
-```bash
+bash
 python main.py
 
 
