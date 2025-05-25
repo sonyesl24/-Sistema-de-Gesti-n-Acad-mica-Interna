@@ -16,24 +16,24 @@ Miembros del grupo:
 
 # Este bloque se ejecuta solo si este archivo es el principal (no si es importado)
 if __name__ == "__main__":
-    print("📚 SISTEMA DE GESTIÓN ACADÉMICA INTERNA\n")
+    print(" SISTEMA DE GESTIÓN ACADÉMICA INTERNA\n")
 
     try:
         # Crear y mostrar un objeto Estudiante con sus datos personales
         estudiante = Estudiante(nombre="Ana Torres", cedula="1102345678", matricula="2025A001")
-        print("👩‍🎓 Estudiante registrado:")
+        print(" Estudiante registrado:")
         print(estudiante)  # Se invoca el metodo __str__ de la clase Estudiante y Usuario
         print("-" * 50)
 
         # Crear y mostrar un objeto Docente con sus datos personales y especialidad
         docente = Docente(nombre="Luis Pérez", cedula="0912345678", especialidad="Magíster en Software")
-        print("👨‍🏫 Docente registrado:")
+        print(" Docente registrado:")
         print(docente)  # Se invoca el metodo __str__ de la clase Docente
         print("-" * 50)
 
         # Crear y mostrar un objeto Asignatura con su nombre y código
         asignatura = Asignatura(nombre="Programación Orientada a Objetos", codigo="INF-235")
-        print("📘 Asignatura registrada:")
+        print(" Asignatura registrada:")
         print(asignatura)  # Se invoca el metodo __str__ de la clase Asignatura
         print("-" * 50)
 
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         examen = Examen(nota=10)  # Se pondera al 34%
 
         # Mostrar los datos de ambas evaluaciones
-        print("📝 Evaluaciones registradas:")
+        print(" Evaluaciones registradas:")
         print(gestion)  # Se invoca el metodo __str__ de GestionContinua
         print(examen)   # Se invoca el metodo __str__ de Examen
         print("-" * 50)
@@ -53,7 +53,7 @@ if __name__ == "__main__":
         nota_final = Nota(gestion, examen)
 
         # Mostrar el resultado final del estudiante
-        print("📊 Resultado final:")
+        print(" Resultado final:")
         print(nota_final)  # Se invoca el metodo __str__ de la clase Nota
         print("=" * 50)
 
